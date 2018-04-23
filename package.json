@@ -1,0 +1,44 @@
+{
+	"name": "CoinOnline",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"eslint-plugin-jsx-a11y": "^6.0.2",
+		"isomorphic-fetch": "latest",
+		"native-base": "^2.3.3",
+		"react": "16.0.0-beta.5",
+		"react-loading": "^1.0.1",
+		"react-native": "0.49.5",
+		"react-native-elements": "^0.18.2",
+		"react-native-keyboard-aware-scroll-view": "latest",
+		"react-native-modalbox": "^1.4.2",
+		"react-native-scrollable-tab-view": "^0.8.0",
+		"react-native-spinkit": "^1.1.1",
+		"react-native-svg": "^5.4.2",
+		"react-native-svg-uri": "^1.2.1",
+		"react-native-swipeout": "^2.3.1",
+		"react-native-textinput-effects": "^0.4.1",
+		"react-native-ultimate-listview": "^3.2.4",
+		"react-native-vector-icons": "^4.4.2",
+		"react-navigation": "^1.0.0-beta.15",
+		"react-redux": "^5.0.6",
+		"redux": "^3.7.2",
+		"redux-persist": "^5.4.0",
+		"redux-thunk": "^2.2.0",
+		"remote-redux-devtools": "^0.5.12"
+	},
+	"devDependencies": {
+		"babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"eslint-plugin-react-native": "^3.2.0",
+		"jest": "21.2.1",
+		"react-test-renderer": "16.0.0-beta.5"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
